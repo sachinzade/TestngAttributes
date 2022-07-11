@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <groups>
+      <run>
+        <include name="log"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.jbk.GrupsOfMethods">
+        <methods>
+          <include name="test03"/>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- com.jbk.GrupsOfMethods -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
